@@ -18,13 +18,15 @@ header{
                             /* MAIN */
 main{
     background-color: lightgray;
-    padding: 10%;
+    padding: 5% 20%;
+    height: 900px;
 }
 .container{
     margin: auto;
     padding: 10px 20px;
+    
 }
-   
+   /* BOTTONI */
 .bottoni{
     background-color: white;
     padding: 10px 30px;
@@ -35,17 +37,22 @@ main{
     padding: 10px;
     border-radius: 7px;
     
+    
 }
 
 .task{
     background-color: #47adf1;
     color: white;
-    list-style-type: none;
-}
+    border: 1px solid #47adf1;
+    outline: none;
     
+}
+    /* INIIZO LISTA */
 .section{
     background-color: white;
     color: gray;
+    border: 1px solid gray;
+    outline: none;
     
 }
 
@@ -55,4 +62,116 @@ main{
     padding: 10px 30px;
     border-radius: 5px;
     margin-top: 2px;
+    line-height: 40px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: Sans-serif;
+}
+
+/* STILE PUNTEGGIATURA */
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6bc4ae;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: center;
+    line-height: 20px ;
+    color: #6bc4ae ;
+    
+}
+
+.cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 10px;
+    line-height: 20px ;
+    font-size: 7px;
+    color: red;
+}
+                        /* COLORI DESTRA */
+.blu{
+    display: inline-block;
+    background-color: #45abea;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 25px ;
+}
+
+.viola{
+    display: inline-block;
+    background-color: #9c72e4;
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 5px;
+    line-height: 25px ;
+}
+
+.verde{
+    display: inline-block;
+    background-color: #64c0a9;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 25px ;
+}
+
+.orange{
+    display: inline-block;
+    background-color: #f29e33;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 25px ;
+}
+
+.rosa{
+    display: inline-block;
+    background-color: #d863a1;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 25px ;
+}
+
+.green{
+    display: inline-block;
+    background-color: #b0c926;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 25px ;
 }
