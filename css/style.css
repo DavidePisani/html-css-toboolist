@@ -29,8 +29,9 @@ main{
    /* BOTTONI */
 .bottoni{
     background-color: white;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 5px;
+    
 }
 
 .press {
@@ -59,7 +60,7 @@ main{
 
 .lista{
     background-color: white;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 5px;
     margin-top: 2px;
     line-height: 40px;
@@ -70,7 +71,7 @@ ul{
     font-family: Sans-serif;
 }
 
-/* STILE PUNTEGGIATURA */
+/* STILE PUNTEGGIATURA LISTA */
 .check{
     display: inline-block;
     width: 20px;
